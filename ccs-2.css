@@ -802,3 +802,15 @@ body {
         width: 100%;
     }
 }
+/* --- CORRECCIÓN: FOTOS MÁS LARGAS EN MÓVIL --- */
+@media (max-width: 768px) {
+    .carousel-item {
+        height: 500px !important; /* Cambia 500px si las quieres más o menos largas */
+    }
+}
+
+@media (max-width: 480px) {
+    .carousel-item {
+        height: 450px !important; /* Altura para celulares pequeños */
+    }
+}
