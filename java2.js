@@ -282,7 +282,7 @@ function openLocation(location) {
 }
 
 function suggestMusic() {
-    const whatsappMessage = "¡Hola! Me gustaría sugerir una canción para la playlist de la boda de Modesto y Genesis 🎵";
+    const whatsappMessage = "¡Hola! Me gustaría sugerir una canción para la playlist de la boda de Modesto Blanco & Genesis Castro 🎵";
     const whatsappUrl = `https://wa.me/1234567890?text=${encodeURIComponent(whatsappMessage)}`;
     window.open(whatsappUrl, '_blank');
 }
@@ -301,7 +301,7 @@ function showGifts() {
 }
 
 function confirmAttendance() {
-    const message = "¡Hola! Quiero confirmar mi asistencia a la boda de Modesto y Genesis el 04 de Enero 💒✨";
+    const message = "¡Hola! Quiero confirmar mi asistencia a la boda de Modesto Blanco & Genesis Castro el 04 de Enero 💒✨";
     const whatsappUrl = `https://wa.me/8295914788?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
 }
@@ -322,3 +322,4 @@ function showToast(title, message) {
         toast.classList.remove('show');
     }, 4000);
 }
+
