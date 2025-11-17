@@ -272,7 +272,7 @@ function openLocation(location) {
         ceremony: "https://maps.app.goo.gl/MU1nTyLCpXvDmxpx5",
         
         // Tu enlace de la fiesta (RECUERDA CAMBIAR ESTE LUEGO)
-        celebration: "https://goo.gl/maps/TU_ENLACE_AQUI" 
+        celebration: "https://maps.app.goo.gl/MU1nTyLCpXvDmxpx5" 
     };
     
     const url = links[location];
@@ -322,4 +322,5 @@ function showToast(title, message) {
         toast.classList.remove('show');
     }, 4000);
 }
+
 
